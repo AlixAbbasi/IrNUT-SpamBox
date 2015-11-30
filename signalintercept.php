@@ -17,6 +17,7 @@ $fromm="From: ";
 $rtl1='<div dir="rtl">';
 $rtl2="</div>";
 $too = "To: ";
+//It is a mess here I know, but I like messy stuff!
 $content1 = $k.$n.$k.$n.$t0.$t.$n.$fromm.$from.$n.$too.$to.$n.$rtl1.$b.$plain_text.$eb.$rtl2.$n.$n.$n;
 function writeUTF8File($filename,$content) {
         $f=fopen($filename,"a");
